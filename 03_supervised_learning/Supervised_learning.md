@@ -6,8 +6,9 @@ Supervised learning is a type of machine learning where a model is trained on a 
 
 ## Key Characteristics
 
-- Uses labeled datasets: input \( \boldsymbol{x} \) and output \( y \)
-- Learns a mapping function \( f(\boldsymbol{x}; \theta) \) that minimizes prediction error
+- Uses labeled datasets: input (x) and output (y)  
+- Learns a mapping function f(x; θ) that minimizes prediction error
+
 - Two major tasks:
   - **Classification**: Predict discrete labels (e.g., dog, cat)
   - **Regression**: Predict continuous values (e.g., house prices)
@@ -25,9 +26,9 @@ The model aims to minimize the empirical loss:
 min_θ (1/N) * Σᵢ=1ⁿ L(f(xᵢ; θ), yᵢ)
 
 Where:
-- $f$: the model (e.g., neural network)  
-- $\theta$: model parameters  
-- $\mathcal{L}$: the loss function (e.g., cross-entropy or MSE)
+- `f`: the model (e.g., neural network)
+- `θ`: model parameters
+- `L`: the loss function (e.g., cross-entropy or MSE)
 
 ---
 
