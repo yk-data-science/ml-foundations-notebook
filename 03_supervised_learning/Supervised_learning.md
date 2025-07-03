@@ -18,20 +18,16 @@ Supervised learning is a type of machine learning where a model is trained on a 
 
 Given a dataset:
 
-\[
-\mathcal{D} = \{(\boldsymbol{x}_1, y_1), (\boldsymbol{x}_2, y_2), \dots, (\boldsymbol{x}_N, y_N)\}
-\]
+D = { (x₁, y₁), (x₂, y₂), ..., (x_N, y_N) }
 
 The model aims to minimize the empirical loss:
 
-\[
-\min_\theta \frac{1}{N} \sum_{i=1}^{N} \mathcal{L}(f(\boldsymbol{x}_i; \theta), y_i)
-\]
+min_θ (1/N) * Σᵢ=1ⁿ L(f(xᵢ; θ), yᵢ)
 
 Where:
-- \( f \) is the model (e.g., neural network)
-- \( \theta \) are model parameters
-- \( \mathcal{L} \) is the loss function (e.g., cross-entropy or MSE)
+- $f$: the model (e.g., neural network)  
+- $\theta$: model parameters  
+- $\mathcal{L}$: the loss function (e.g., cross-entropy or MSE)
 
 ---
 
